@@ -29,7 +29,7 @@
           </a>
           <ul class="list navigation">
             <li class="navigation-item">
-              <a href="./index.html" class="link navigation-link">Студия</a>
+              <a href="./index.html" class="link navigation-link ">Студия </a>
             </li>
             <li class="navigation-item">
               <a href="./portfolio.html" class="link navigation-link active">Портфолио</a>
@@ -40,13 +40,17 @@
           </ul>
         </nav>
         <ul class="list navigation-contacts">
-          <li>
-            <a href="+380961111111" class="link navigation-contacts-tel">+38 096 111 11 11</a>
-          </li>
-          <li>
+          <li class="navigation-contacts-item">
             <a href="info@devstudio.com" class="link navigation-contacts-mail"
-              >info@devstudio.com</a
-            >
+              > <svg class="contact-icon"width="16" height="12">
+                <use href=./images/sprite.svg#icon-mail></use>
+              </svg> info@devstudio.com
+            </a>
+          </li>
+
+          <li class="navigation-contacts-item">
+            <a href="+380961111111" class="link navigation-contacts-tel">
+              <svg class="contact-icon"width="10" height="16" ><use href=./images/sprite.svg#icon-telefon ></use></svg> +38 096 111 11 11</a>
           </li>
         </ul>
       </div>
@@ -77,89 +81,133 @@
       <section class="projects">
         <div class="container">
           <h2 class="visually-hidden">Проекты</h2>
-          <ul class="list projects-list">
-            <li class="projects-list-item">
-              <img class="projects-list-item-img" src="./images/Технокряк.jpg" alt="Проект1" />
-              <div class="projects-list-item-title">
-                <h3 class="projects-list-item-h">Технокряк</h3>
-                <p class="projects-list-item-p">Веб-сайт</p>
-              </div>
+          <ul class="list  projects-list">
+            <li class="projects-list-item ">             
+                <a class="projects-list-link " href="">
+                  <div class="box">
+                    <img class="projects-list-item-img" src="./images/технокряк.jpg" alt="Проект1" />
+                    <p class="projects-list-overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+
+                  </div>                                             
+                 <div class="projects-list-item-title">
+                   <h3 class="projects-list-item-h">Технокряк</h3>
+                   <p class="projects-list-item-p">Веб-сайт</p>
+                 </div>
+                </a>
+             
             </li>
             <li class="projects-list-item">
-              <img
-                class="projects-list-item-img"
-                src="./images/постеneworleanvsgoldenstar.jpg"
-                alt="Проект2"
-              />
-              <div class="projects-list-item-title">
+              <a class="projects-list-link" href="">
+                <div class="box">
+                  <img class="projects-list-item-img" src="./images/постеneworleanvsgoldenstar.jpg" alt="Проект2" />
+                  <p class="projects-list-overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+
+                </div>
+               
+                <div class="projects-list-item-title">
                 <h3 class="projects-list-item-h">Постер New Orlean vs Golden Star</h3>
                 <p class="projects-list-item-p">Дизайн</p>
-              </div>
+                </div>
+              </a>
+              
             </li>
             <li class="projects-list-item">
-              <img
-                class="projects-list-item-img"
-                src="./images/ресторанseafood.jpg"
-                alt="Проект3"
-              />
-              <div class="projects-list-item-title">
-                <h3 class="projects-list-item-h">Ресторан Seafood</h3>
-                <p class="projects-list-item-p">Приложение</p>
-              </div>
+              <a class="projects-list-link" href="">
+                <div class="box">
+                  <img class="projects-list-item-img" src="./images/ресторанseafood.jpg" alt="Проект3" />
+                  <p class="projects-list-overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                </div>
+                
+                <div class="projects-list-item-title">
+                  <h3 class="projects-list-item-h">Ресторан Seafood</h3>
+                  <p class="projects-list-item-p">Приложение</p>
+                </div>
+              </a>
+             
             </li>
             <li class="projects-list-item">
-              <img class="projects-list-item-img" src="./images/проектprime.jpg" alt="Проект4" />
-              <div class="projects-list-item-title">
-                <h3 class="projects-list-item-h">Проект Prime</h3>
-                <p class="projects-list-item-p">Маркетинг</p>
-              </div>
+              <a class="projects-list-link" href="">
+                <div class="box">
+                  <img class="projects-list-item-img" src="./images/проектprime.jpg" alt="Проект4" />
+                 <p class="projects-list-overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                </div>
+                
+                 <div class="projects-list-item-title">
+                    <h3 class="projects-list-item-h">Проект Prime</h3>
+                    <p class="projects-list-item-p">Маркетинг</p>
+                  </div>
+              </a>
+             
             </li>
             <li class="projects-list-item">
-              <img class="projects-list-item-img" src="./images/проектboxes.jpg" alt="Проект5" />
-              <div class="projects-list-item-title">
-                <h3 class="projects-list-item-h">Проект Boxes</h3>
-                <p class="projects-list-item-p">Приложение</p>
-              </div>
+              <a class="projects-list-link" href="">
+                <div class="box">
+                  <img class="projects-list-item-img" src="./images/проектboxes.jpg" alt="Проект5" />
+                <p class="projects-list-overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                </div>
+                
+                <div class="projects-list-item-title">
+                  <h3 class="projects-list-item-h">Проект Boxes</h3>
+                  <p class="projects-list-item-p">Приложение</p>
+                </div>
+              </a>
+              
             </li>
             <li class="projects-list-item">
-              <img
-                class="projects-list-item-img"
-                src="./images/inspirationhasnoborders.jpg"
-                alt="Проект6"
-              />
+              <a class="projects-list-link" href="">
+                <div class="box">
+                  <img class="projects-list-item-img" src="./images/inspirationhasnoborders.jpg" alt="Проект6" />
+                  <p class="projects-list-overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                </div>
+               
               <div class="projects-list-item-title">
                 <h3 class="projects-list-item-h">Inspiration has no Borders</h3>
                 <p class="projects-list-item-p">Веб-сайт</p>
               </div>
+            </a>
+              
             </li>
             <li class="projects-list-item">
-              <img
-                class="projects-list-item-img"
-                src="./images/изданиеlimitededition.jpg"
-                alt="Проект7"
-              />
+              <a class="projects-list-link" href="">
+                <div class="box">
+                  <img class="projects-list-item-img" src="./images/изданиеlimitededition.jpg" alt="Проект7" />
+                 <p class="projects-list-overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                </div>
+                
               <div class="projects-list-item-title">
                 <h3 class="projects-list-item-h">Издание Limited Edition</h3>
                 <p class="projects-list-item-p">Дизайн</p>
               </div>
+            </a>
+             
             </li>
             <li class="projects-list-item">
-              <img class="projects-list-item-img" src="./images/проектlab.jpg" alt="Проект8" />
-              <div class="projects-list-item-title">
-                <h3 class="projects-list-item-h">Проект LAB</h3>
-                <p class="projects-list-item-p">Маркетинг</p>
-              </div>
+              <a class="projects-list-link" href="">
+                <div class="box">
+                  <img class="projects-list-item-img" src="./images/проектlab.jpg" alt="Проект8" />
+                  <p class="projects-list-overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                </div>
+                
+                <div class="projects-list-item-title">
+                  <h3 class="projects-list-item-h">Проект LAB</h3>
+                  <p class="projects-list-item-p">Маркетинг</p>
+                </div>
+              </a>
+              
             </li>
             <li class="projects-list-item">
-              <img
-                class="projects-list-item-img"
-                src="./images/growingbusiness.jpg"
-                alt="Проект9"
-              />
+              <a class="projects-list-link" href=""> 
+                <div class="box">
+                  <img class="projects-list-item-img" src="./images/growingbusiness.jpg" alt="Проект9" />
+                  <p class="projects-list-overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                </div>
+                
               <div class="projects-list-item-title">
                 <h3 class="projects-list-item-h">Growing Business</h3>
                 <p class="projects-list-item-p">Приложение</p>
               </div>
+            </a>
+             
             </li>
           </ul>
         </div>
@@ -167,29 +215,69 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <h2 class="link logo">Web <span class="link logo-withe">Studio</span></h2>
-        <address class="footer-address">
-          <ul class="list footer-address-list">
-            <li class="footer-address-list-link">
-              <a class="link footer-address-list-city"
-                href="https://bit.ly/3pXMvUd"
-                target="_blank"
-                rel="noopener noreferrer"
-                >г. Киев, пр-т Леси Украинки, 26</a
-              >
+        <ul class="footer-links">
+          <li class="footer-left">
+              <h2 class="link logo">Web <span class="link logo-withe">Studio</span></h2>
+            <address class="footer-address">
+              <ul class="list footer-address-list">
+                <li class="footer-address-list-link">
+                  <a
+                    class="link footer-address-list-city"
+                    href="https://bit.ly/3pXMvUd"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >г. Киев, пр-т Леси Украинки, 26</a
+                  >
+                </li>
+                <li class="footer-address-list-link">
+                  <a class="link footer-address-list-links" href="mailto:info@example.com"
+                    >info@example.com</a
+                  >
+                </li>
+                <li class="footer-address-list-link">
+                  <a class="link footer-address-list-links" href="tel:+380961111111"
+                    >+38 096 111 11 11</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </li>
+          <li class="footer-right">
+           <h2 class="footer-h2">присоединяйтесь</h2> 
+           <ul class="social-list">
+            <li class="social-list-item list">
+              <a href="" class="social-list-link-dark">
+                <svg class="social-list-icon-dark" width="20" height="20" >
+                  <use href=./images/sprite.svg#icon-instagram></use>
+                </svg>
+              </a>
             </li>
-            <li class="footer-address-list-link">
-              <a class="link footer-address-list-links" href="mailto:info@example.com"
-                >info@example.com</a
-              >
+            <li class="social-list-item list">
+              <a href="" class="social-list-link-dark">
+                <svg class="social-list-icon-dark"width="20"hight="20">
+                  <use href=./images/sprite.svg#icon-twitter></use>
+                </svg>
+              </a>
             </li>
-            <li class="footer-address-list-link">
-              <a class="link footer-address-list-links" href="tel:+380961111111"
-                >+38 096 111 11 11</a
-              >
+            <li class="social-list-item list">
+              <a href="" class="social-list-link-dark">
+                <svg class="social-list-icon-dark"width="20" hight="20">
+                  <use href=./images/sprite.svg#icon-facebook></use>
+                </svg>
+              </a>
             </li>
-          </ul>
-        </address>
+            <li class="social-list-item list">
+              <a href="" class="social-list-link-dark">
+                <svg class="social-list-icon-dark"width="20" hight="20">
+                  <use href=./images/sprite.svg#icon-linkedin></use>
+                </svg>
+              </a>
+            </li>
+           </ul>
+
+          </li>
+        </ul>
+      
       </div>
     </footer>
   </body>
